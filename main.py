@@ -133,35 +133,57 @@ def preprocessing_new():
         # num_col = pre.get_numerical_col(data)
 
 
+        # ct2 = make_column_transformer((expTextToNum, ['Years in current job']), \
+        #                               (credit_score_normalizer, ['Credit Score']), \
+        #                               (currentScore_normalizer, ['Current Loan Amount']), \
+        #                               (monthly_deliquent,['Months since last delinquent']),\
+        #                               (home_own_spell,['Home Ownership']),\
+        #                               (purpose_Spell,['Purpose']),\
+        #
+        #                               (ohe, ['Term', 'Home Ownership', 'Purpose']),\
+        #
+        #                               ('drop', drop_cols), \
+        #                               remainder='passthrough')
         ct2 = make_column_transformer((expTextToNum, ['Years in current job']), \
                                       (credit_score_normalizer, ['Credit Score']), \
                                       (currentScore_normalizer, ['Current Loan Amount']), \
-                                      (monthly_deliquent,['Months since last delinquent']),\
-                                      (home_own_spell,['Home Ownership']),\
-                                      (purpose_Spell,['Purpose']),\
-
-                                      (ohe, ['Term', 'Home Ownership', 'Purpose']),\
-
+                                      (monthly_deliquent, ['Months since last delinquent']), \
+                                      (home_own_spell, ['Home Ownership']), \
+                                      #(purpose_Spell,['Purpose'])
                                       ('drop', drop_cols), \
                                       remainder='passthrough')
-
 
         pipchk=make_pipeline(ct2,ArrayToDf(X))
         dataframe = pipchk.fit_transform(X)
 
+        purposeSpell_ct = make_column_transformer((PurposeSpell(dataframe), ['Purpose']), remainder='passthrough')
+
+        pipchk =make_pipeline(purposeSpell_ct,ArrayToDf(dataframe))
+        dataframe = pipchk.fit_transform(dataframe)
+        # dataframe = pd.DataFrame(purposeSpell_ct.fit_transform(dataframe),
+        #              columns=['Years in current job', 'Credit Score', 'Current Loan Amount',
+        #                       'Months since last delinquent', 'Term', 'Annual Income',
+        #                       'Home Ownership', 'Purpose', 'Monthly Debt', 'Years of Credit History',
+        #                       'Number of Open Accounts', 'Number of Credit Problems',
+        #                       'Current Credit Balance', 'Maximum Open Credit'])
+
+
+
         # Normalized_data = ct2.fit_transform(X)
-        dataframe.to_csv("dataframe.csv")
-        data1 = pd.read_csv('dataframe.csv', index_col=[0])
+        #saveResult_result(), index = False
+        problem_utils = utills()
+        dataframe.to_csv(problem_utils.saveResult_result(),index=False)
 
         print("Dataframe")
         print(dataframe)
 
-        problem_utils = utills()
 
-        trans_dataframe = pre.fill_missing_value_KNN_imputer(data1)
-        trans_dataframe.to_csv(problem_utils.saveResult_result())
+
+        #trans_dataframe = pre.fill_missing_value_KNN_imputer(data1)
+        #trans_dataframe.to_csv(problem_utils.saveResult_result())
         print("///////////////////KNN Data Transform Data frame///////////////////")
         #print(trans_dataframe)
+
 
 
 
@@ -187,16 +209,3 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-
-
-
-
-
-# column_names, NumberofColumns =raw_validation.valuesFromSchema()
-#
-# good_csv = "Training_Raw_files_validated/Good_Raw/credit.csv"
-# raw_validation.validateColumnLength(NumberofColumns)

@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f30a7d-3de0-42dd-a6a6-077c3b3ac5a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Input_data/credit.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input_data/credit_ver10.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preprocessing_log/preprocessing_error_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preprocessing_log/preprocessing_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RawDataValidation/rawValidation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training_Logs/GeneralLog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training_Logs/columnValidationLog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training_Logs/missingValuesInColumn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training_Logs/nameValidationLog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training_Logs/valuesfromSchemaValidationLog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training_Raw_files_validated/Good_Raw/credit.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application_logging/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/ArrayToDf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/CreditScoreNormalizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/CurrentLoanAmountNormalizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/HomeOwnSpell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/Knn_Imputer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/MonthDeliquent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/PurposeSpell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/create_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/express_text_to_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing_utils/get_dependent_and_indepenedent_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessingfolder/preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_utills/preprocessing_utills.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema_training.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.ipynb_checkpoints/Loan_Eligibility_iNeuron_EDA-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Loan_Eligibility_iNeuron_EDA-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Loan_Eligibility_iNeuron_EDA-Copy1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Loan_Eligibility_iNeuron_EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Loan_Eligibility_iNeuron_EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Loan_Eligibility_iNeuron_EDA.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preprocessing_log/preprocessing_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Preprocessing_log/preprocessing_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nIFKehkFbY9sB4CAebDcxqsO1C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -155,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocessingfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BankUI_Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessingfolder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessingfolder/preprocessingfile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.prediction" />
         <item itemvalue="Python.app1" />
-        <item itemvalue="Python.preprocessingfile" />
       </list>
     </recent_temporary>
   </component>
@@ -247,16 +226,6 @@
           <url>file://$PROJECT_DIR$/RawDataValidation/rawValidation.py</url>
           <line>44</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>198</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>201</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/RawDataValidation/rawValidation.py</url>
@@ -455,7 +424,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>168</line>
+          <line>179</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -490,7 +459,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>160</line>
+          <line>170</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -547,6 +516,11 @@
           <url>file://$PROJECT_DIR$/preprocessing_utils/HomeOwnSpell.py</url>
           <line>17</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

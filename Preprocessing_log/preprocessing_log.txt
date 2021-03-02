@@ -413,3 +413,63 @@
 2021-02-20/21:33:45		Text data of year has been converted in number
 2021-02-20/21:33:46		CurrentLoanAmountNormalizer normalized Successfully
 2021-02-20/21:33:46		Months since last delinquent nan value converted to 0 Successfully
+2021-02-23/19:36:48		Data has segregated successfully in Ip and Op
+2021-02-23/19:36:48		Text data of year has been converted in number
+2021-02-23/19:36:48		CurrentLoanAmountNormalizer normalized Successfully
+2021-02-23/19:36:48		Months since last delinquent nan value converted to 0 Successfully
+2021-02-23/19:36:48		Successfully Array converted into Data frame
+2021-02-23/19:36:54		Data has segregated successfully in Ip and Op
+2021-02-23/19:36:54		Text data of year has been converted in number
+2021-02-23/19:36:54		CurrentLoanAmountNormalizer normalized Successfully
+2021-02-23/19:36:54		Months since last delinquent nan value converted to 0 Successfully
+2021-02-23/19:36:55		Successfully Array converted into Data frame
+2021-02-24/20:14:37		Data has segregated successfully in Ip and Op
+2021-02-24/20:14:38		Text data of year has been converted in number
+2021-02-24/20:14:38		CurrentLoanAmountNormalizer normalized Successfully
+2021-02-24/20:14:38		Months since last delinquent nan value converted to 0 Successfully
+2021-02-24/20:14:38		Successfully Array converted into Data frame
+2021-02-24/20:24:04		Data has segregated successfully in Ip and Op
+2021-02-24/20:24:16		Data has segregated successfully in Ip and Op
+2021-02-24/20:24:34		Data has segregated successfully in Ip and Op
+2021-02-24/20:25:18		Data has segregated successfully in Ip and Op
+2021-02-24/20:25:30		Data has segregated successfully in Ip and Op
+2021-02-24/20:25:30		Text data of year has been converted in number
+2021-02-24/20:25:30		CurrentLoanAmountNormalizer normalized Successfully
+2021-02-24/20:25:30		Months since last delinquent nan value converted to 0 Successfully
+2021-02-24/20:25:30		Successfully Array converted into Data frame
+2021-03-01/01:40:26		Data has segregated successfully in Ip and Op
+2021-03-01/01:40:26		Text data of year has been converted in number
+2021-03-01/01:40:27		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-01/01:40:27		Months since last delinquent nan value converted to 0 Successfully
+2021-03-01/01:40:27		Successfully Array converted into Data frame
+2021-03-01/02:05:23		Data has segregated successfully in Ip and Op
+2021-03-01/02:05:44		Text data of year has been converted in number
+2021-03-01/02:05:45		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-01/02:05:45		Months since last delinquent nan value converted to 0 Successfully
+2021-03-01/02:06:36		Successfully Array converted into Data frame
+2021-03-02/17:58:23		Data has segregated successfully in Ip and Op
+2021-03-02/17:58:45		Text data of year has been converted in number
+2021-03-02/17:58:46		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-02/17:58:46		Months since last delinquent nan value converted to 0 Successfully
+2021-03-02/17:59:06		Successfully Array converted into Data frame
+2021-03-02/18:00:06		Data has segregated successfully in Ip and Op
+2021-03-02/18:00:06		Text data of year has been converted in number
+2021-03-02/18:00:06		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-02/18:00:07		Months since last delinquent nan value converted to 0 Successfully
+2021-03-02/18:00:07		Successfully Array converted into Data frame
+2021-03-02/18:28:56		Data has segregated successfully in Ip and Op
+2021-03-02/18:28:56		Text data of year has been converted in number
+2021-03-02/18:28:56		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-02/18:28:56		Months since last delinquent nan value converted to 0 Successfully
+2021-03-02/18:28:57		Successfully Array converted into Data frame
+2021-03-02/18:38:17		Data has segregated successfully in Ip and Op
+2021-03-02/18:38:56		Text data of year has been converted in number
+2021-03-02/18:38:57		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-02/18:38:57		Months since last delinquent nan value converted to 0 Successfully
+2021-03-02/18:39:01		Successfully Array converted into Data frame
+2021-03-02/18:45:48		Data has segregated successfully in Ip and Op
+2021-03-02/18:45:54		Text data of year has been converted in number
+2021-03-02/18:45:54		CurrentLoanAmountNormalizer normalized Successfully
+2021-03-02/18:45:54		Months since last delinquent nan value converted to 0 Successfully
+2021-03-02/18:46:01		Successfully Array converted into Data frame
+2021-03-02/18:46:22		Successfully Array converted into Data frame

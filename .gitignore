@@ -1,0 +1,4 @@
+*.pyc
+/pickle_files/loan_risk.pkl
+/preprocessing_pkl/NUMERICAL_PIPELINE.pkl
+/preprocessing_pkl/PREPRO_PIPELINE.pkl
